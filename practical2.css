@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    background-color: rgb(227, 137, 137);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   height: 60px;
+}
+h1{
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+.nav-content{
+    color: black;
+    
+    /* margin-right: 200px; */
+    text-align: center;
+    margin-right: 20px;
+    
+   
+}
+.nav-content a{
+    color: black;
+    font-size: 30px;
+    gap: 5rem;
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+
+.heroarea{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+}
+.heroarea .container{
+    height: 300px;
+    width: 750px;
+    background-color: rgba(181, 174, 174, 0.637);
+    margin-left: 150px; 
+}
+.heroarea p{
+    margin-left: 100px;
+    margin-right: 150px;
+    font-size: 30px;
+}

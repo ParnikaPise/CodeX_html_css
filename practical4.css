@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+body{
+    background-color: rgb(209, 243, 231);
+}
+.navbar{
+    background-color: rgba(129, 101, 101, 0.29);
+    ;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   height: 60px;
+}
+h1{
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+.nav-content{
+    color: black;
+    
+    /* margin-right: 200px; */
+    text-align: center;
+    margin-right: 20px;
+    
+   
+}
+.nav-content a{
+    color: black;
+    font-size: 30px;
+    gap: 5rem;
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+
+.main h1{
+    margin-top: 158px;
+}
+.card-collection{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 70px;
+    margin-left:29px;
+    width: 90%;
+    
+}
+.card{
+height: 140px;
+width: 300px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:  10px 15px ;
+margin-left: 29px;
+box-sizing: border-box;
+box-shadow:2px 2px 10px rgba(98, 97, 97, 0.774);
+background-color:rgba(225, 225,225, 1);
+
+}
+
+
+.container{
+    height: 80%;
+    width: 35%;
+   border-radius: 50%;
+    background-color: grey;
+    
+    /* margin-top: 20px; */
+    
+    
+    
+    
+}
+p{
+    /* margin-left: 20px;
+    margin-top: 10px; */
+    text-wrap: wrap 2px;
+    width: 55%;
+
+}
